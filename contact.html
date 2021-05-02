@@ -102,28 +102,30 @@
 								novalidate
 							>
 								<div class="form-group">
-									<label> Nom </label>
-									<input id="name" class="form-control" required />
+									<label for="name"> Nom </label>
+									<input id="name" name="name" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label> Adresse email </label>
-									<input id="email" class="form-control" type="email" required />
+									<label for="email"> Adresse email </label>
+									<input id="email" name="email" class="form-control" type="email" required />
 								</div>
 								<div class="form-group">
-									<label> Comment nous avez-vous connu ? </label>
+									<label for="meet"> Comment nous avez-vous connu ? </label>
 									<input
 										class="form-control"
-										type="email"
+										type="text"
+										name="meet"
 										required
 										id="input_504"
 									/>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="project">
 										Brief de votre projet (Ajoutez autant de détails que
 										nécessaire)<br /> </label
 									><textarea
 										id="message"
+										name="project"
 										class="form-control"
 										rows="4"
 										cols="50"
@@ -148,12 +150,6 @@
 				</div>
 			</div>
 			<!-- bloc-7 END -->
-
-			<!-- ScrollToTop Button -->
-			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"
-				><span class="fa fa-chevron-up"></span
-			></a>
-			<!-- ScrollToTop Button END-->
 
 			<!-- Footer - bloc-8 -->
 			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
